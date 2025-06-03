@@ -1,5 +1,8 @@
 name: Deploy to GitHub Pages
 
+env:
+  SITE_URL: https://happyvibess.github.io/nexus-consulting
+
 on:
   push:
     branches: [ main ]
